@@ -5,6 +5,15 @@ class LoginPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: Center(
+        child: ElevatedButton(
+          onPressed: () {
+            Navigator.pushNamed(context, '/home');
+          },
+          child: const Text("Login"),
+        ),
+      ),
+    );
   }
 }
