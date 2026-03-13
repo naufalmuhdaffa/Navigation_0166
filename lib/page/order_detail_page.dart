@@ -20,6 +20,9 @@ class OrderDetailPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text("Order Detail")),
+      body: Padding(
+        padding: const EdgeInsets.all(20),
+      ),
     );
   }
 }
