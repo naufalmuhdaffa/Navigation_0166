@@ -22,6 +22,11 @@ class OrderDetailPage extends StatelessWidget {
       appBar: AppBar(title: const Text("Order Detail")),
       body: Padding(
         padding: const EdgeInsets.all(20),
+        child: Column(
+          children: [
+            Text("Makanan: $makanan"),
+          ],
+        ),
       ),
     );
   }
