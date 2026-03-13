@@ -30,6 +30,7 @@ class OrderDetailPage extends StatelessWidget {
             Text("Minuman: $minuman"),
             Text("Jumlah: $jumlahMinuman"),
             const SizedBox(height: 20),
+            Text("Total Harga: Rp $totalHarga"),
           ],
         ),
       ),
