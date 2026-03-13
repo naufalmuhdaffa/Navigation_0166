@@ -24,13 +24,23 @@ class OrderDetailPage extends StatelessWidget {
         padding: const EdgeInsets.all(20),
         child: Column(
           children: [
-            Text("Makanan: $makanan"),
-            Text("Jumlah: $jumlahMakanan"),
+            Text("Food : $makanan"),
+            Text("Qty : $jumlahMakanan"),
+
             const SizedBox(height: 10),
-            Text("Minuman: $minuman"),
-            Text("Jumlah: $jumlahMinuman"),
+
+            Text("Drink : $minuman"),
+            Text("Qty : $jumlahMinuman"),
+
             const SizedBox(height: 20),
-            Text("Total Harga: Rp $totalHarga"),
+
+            Text(
+              "Total : Rp $totalHarga",
+              style: const TextStyle(
+                fontSize: 18,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
           ],
         ),
       ),
