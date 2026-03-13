@@ -25,6 +25,7 @@ class OrderDetailPage extends StatelessWidget {
         child: Column(
           children: [
             Text("Makanan: $makanan"),
+            Text("Jumlah: $jumlahMakanan"),
           ],
         ),
       ),
